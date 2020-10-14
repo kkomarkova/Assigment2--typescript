@@ -13,3 +13,29 @@ h2
 h1{
     @extend h2;
 }
+
+table
+{
+    padding: 20px;
+    width: 120px;
+    border-collapse: collapse;
+    color: beige;
+    background-color: blueviolet;
+}
+
+button
+{
+    background-color: #e7e7e7; color: black;
+    font-size: 16px;
+    padding: 14px 40px;
+    border-radius: 50%;
+
+}
+td, th{
+    border: 1px solid darkgray;
+    text-align: left;
+}
+tr:nth-child(even) {
+    background-color: palevioletred;
+    color: white;
+  }
