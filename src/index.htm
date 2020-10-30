@@ -7,16 +7,41 @@
 </head>
 
 <body>
-  <h1>String manipulations</h1>
-  <input type="text" id ="input">
-  <select id="letters">
-<option value="upper">Upper case</option>
-<option value="lower">Lower case</option>
-  </select>
-  <button id="doit" > Do it!</button> <br>
-  <table id ="table">  
-  </table>
+  <h1>Call the Bid Restservice</h1>
     
-  <script src="bundle.js"></script>
+  <div id="content">
+    <ol id="bidsContent">
+
+    </ol>
+  </div>
+  <button id="getAllButton">Get All Bids</button>
+
+  <h1>Add a new bid</h1>
+<input id="addItem" placeholder="add the item"/> 
+<br>
+<input id= "addName" placeholder="add the name"/>
+<br>
+<input id= "addPrice" placeholder ="add the price"/>
+<br>
+<button id="addButton">Add a bid</button>
+
+  <div id="getOneBid">
+    <input id= "getOne" placeholder ="get bid by id"/>
+    <br>
+    <button id ="getOneButton"> Get bid by id</button>
+    <ol id="getoneBidlist">
+    
+    </ol>
+    </div>
+
+<h1>delete a bid</h1>
+<input id= "deleteBidId" placeholder ="add bid id"/>
+<br>
+<button id="deleteButton">delete a bid</button>
+
+<div id="deletecontent"></div>
+
+<script src="bundle.js"></script>
+
 </body>
 </html>
